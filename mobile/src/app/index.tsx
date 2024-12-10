@@ -1,6 +1,7 @@
 import { View, Text } from "react-native";
 import { Welcome } from "@/components/welcome";
 import { Steps } from "@/components/steps";
+import { object } from "@/utils/Object";
 const Index = () => {
   return (
     <View
@@ -11,7 +12,7 @@ const Index = () => {
       }}
     >
       <Welcome />
-      <Steps />
+     <Steps />
     </View>
   );
 };
